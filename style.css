@@ -1,0 +1,146 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100px;
+
+    background-color: #E49C4D;
+}
+.btn_bubble{
+    width: fit-content;
+    padding: 0.5rem;
+    background-color: white;
+    
+    font-weight: 900;
+
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+    cursor: pointer;
+}
+
+.sub_nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn{
+    width: fit-content;
+    padding: 0.5rem;
+
+    background-color: black;
+    
+    color: white;
+    font-weight: 900;
+    font-size: 1.5rem;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.speedBtn{
+    width: fit-content;
+    padding: 0.5rem;
+
+    font-weight: 900;
+    font-size: 1.5rem;
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+.speedBtn:hover{
+    color: white;
+    background-color: black;
+}
+.speed_sign{
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    margin: 0 0.3rem;
+
+    font-weight: 900;
+    font-size: 1.5rem;
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.main_box{
+    position: relative;
+
+    width: 100vw;
+    height: 50vh;
+    border: 3px solid black;
+}
+.target{
+    position:absolute;
+    top : 0; left : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E49C4D;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.info{
+    color: black;
+    width: 100vw;
+    height: 200px;
+    border: 3px solid black;
+
+    overflow-y: scroll;
+}
+.navbox_mouseEnter{
+    color:red;
+    font-size: 1rem;
+    font-weight: 900;
+    
+    margin: 0.1rem 0;
+}
+.navbox_mouseOver{
+    color:white;
+    text-shadow: -1px 0 rgb(255, 0, 0), 0 1px rgb(255, 0, 0), 1px 0 rgb(255, 0, 0), 0 -1px rgb(255, 0, 0);
+    font-size: 1rem;
+    font-weight: 900;
+    
+    margin: 0.1rem 0;
+}
+
+.bubblebox_mouseEnter{
+    color:blue;
+    font-size: 0.5rem;
+    font-weight: 600;
+    
+    margin: 0.1rem 0;
+}
+.bubblebox_mouseOver{
+    color:white;
+    text-shadow: -1px 0 rgb(0, 0, 255), 0 1px rgb(0, 0, 255), 1px 0 rgb(0, 0, 255), 0 -1px rgb(0, 0, 255);
+    
+    font-weight: 600;
+    
+    margin: 0.1rem 0;
+}
+
+.input{
+    border: 3px solid black;
+    height: 100px;
+}
